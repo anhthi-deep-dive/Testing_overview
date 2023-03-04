@@ -1,3 +1,5 @@
-const App = () => <div>Minimal React boilerplate</div>;
+import { WaitFor } from "./testing-library/waitFor/WaitFor";
+
+const App = () => <WaitFor />;
 
 export default App;
