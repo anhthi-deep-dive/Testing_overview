@@ -9,7 +9,8 @@
     "import",
     "jsx-a11y",
     "react",
-    "react-hooks"
+    "react-hooks",
+    "jest"
   ],
   "extends": [
     "eslint:recommended",
@@ -18,11 +19,13 @@
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
     "prettier",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended"
   ],
   "env": {
     "node": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
   "rules": {
     "@typescript-eslint/no-unused-vars": "error",
