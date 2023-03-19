@@ -9,7 +9,7 @@ const handleSvg = require("./rules/handle-svg");
 const handleTs = require("./rules/handle-ts");
 
 module.exports = {
-  entry: path.resolve(__dirname, "../src/index.tsx"),
+  entry: path.resolve(__dirname, "../index.tsx"),
   output: {
     publicPath: "/",
     path: path.resolve(__dirname, "../dist"),

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { fakeCall, FakeCallResult } from "src/utils/fakeCall";
+import { fakeCall, FakeCallResult } from "../../../utils/fakeCall";
 
 export const FindBy = () => {
   const [isLoading, setIsLoading] = useState(false);

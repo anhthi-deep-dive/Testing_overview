@@ -8,8 +8,8 @@
     "start": "webpack serve --config webpack/webpack.dev.js",
     "start:prod": "npm run build && cd dist && npx serve",
     "build": "webpack --config webpack/webpack.prod.js",
-    "lint": "eslint src --ext .ts,.tsx,.js --fix",
-    "format": "prettier src/**/*.{ts,tsx,js,json} --write",
+    "lint": "eslint --ext .ts,.tsx,.js --fix",
+    "format": "prettier **/*.{ts,tsx,js,json} --write",
     "test": "jest",
     "test:cov": "jest --coverage"
   },
